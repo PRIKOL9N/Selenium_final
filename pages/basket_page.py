@@ -9,4 +9,5 @@ class BasketPage(BasePage):
 
     def should_be_msg_no_item(self):
         print(self.browser.find_element(*BasketPageLocators.NO_ITEM).text)
-        assert self.browser.find_element(*BasketPageLocators.NO_ITEM).text == 'Your basket is empty. Continue shopping', 'It is not msg, but should be'
+        assert self.browser.find_element(
+            *BasketPageLocators.NO_ITEM).text == 'Your basket is empty. Continue shopping', 'It is not msg, but should be'

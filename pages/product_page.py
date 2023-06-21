@@ -28,3 +28,4 @@ class ProductPage(BasePage):
         assert self.is_not_element_present(*ProductPageLocators.BASKET_ALERT), \
             "Success message is presented, but should not be"
 
+

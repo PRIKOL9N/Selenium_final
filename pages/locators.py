@@ -29,3 +29,4 @@ class BasePageLocators:
 class BasketPageLocators:
     ITEMS_TABLE = (By.CSS_SELECTOR, "div.basket-title.hidden-xs")
     NO_ITEM = (By.CSS_SELECTOR, '#content_inner p')
+
