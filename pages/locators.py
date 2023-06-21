@@ -11,4 +11,10 @@ class LoginPageLocators:
 
 
 class ProductPageLocators:
+    ITEM_NAME = (By.CSS_SELECTOR, 'div.col-sm-6.product_main h1')
+    ITEM_NAME2 = (By.CSS_SELECTOR, 'div.alertinner strong')
+    ITEM_PRICE = (By.CSS_SELECTOR, 'p.price_color')
     BASKET_BUTTON = (By.CLASS_NAME, 'btn.btn-lg.btn-primary.btn-add-to-basket')
+    BASKET_ALERT = (By.CLASS_NAME, 'alertinner')
+    BASKET_MSG = (By.CSS_SELECTOR, 'div.alertinner')
+    BASKET_VALUE = (By.CSS_SELECTOR, 'div.alertinner p strong')
