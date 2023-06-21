@@ -27,3 +27,4 @@ class ProductPage(BasePage):
     def should_not_be_success_message_after_buy(self):
         assert self.is_not_element_present(*ProductPageLocators.BASKET_ALERT), \
             "Success message is presented, but should not be"
+

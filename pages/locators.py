@@ -18,3 +18,8 @@ class ProductPageLocators:
     BASKET_ALERT = (By.CLASS_NAME, 'alertinner')
     BASKET_MSG = (By.CSS_SELECTOR, 'div.alertinner')
     BASKET_VALUE = (By.CSS_SELECTOR, 'div.alertinner p strong')
+
+
+class BasePageLocators:
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
